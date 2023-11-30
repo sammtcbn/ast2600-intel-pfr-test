@@ -14,6 +14,6 @@ tar zxfv ${TARFN} || exit 1
 
 mkdir -p images || exit 1
 cp -f ast2600-dcscm/obmc-phosphor-image-ast2600-dcscm.static.mtd images || exit 1
-rm -rf ${TARFN} ast2600-dcscm-obmc/ || exit 1
+rm -rf ${TARFN} ast2600-dcscm/ || exit 1
 
 echo done

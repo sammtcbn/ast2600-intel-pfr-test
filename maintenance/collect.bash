@@ -5,8 +5,8 @@ TOPPATH=$(cd "$(dirname "$1")/.."; pwd)
 
 #INTEL_SIGN_UTIL_COMMIT=2c6f15434db57e5f51e3b1a4817f0e621a5bad25
 
-OPENBMC_TAG=v08.05
-ZEPHYR_TAG=v01.05
+OPENBMC_TAG=v08.06
+ZEPHYR_TAG=v01.06
 
 #output=./output
 output=${TOPPATH}

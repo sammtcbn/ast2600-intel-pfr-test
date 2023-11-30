@@ -1,7 +1,7 @@
 #!/bin/bash
 TOPPATH=$(cd "$(dirname "$1")"; pwd)
 
-OPENBMC_TAG=v08.05
+OPENBMC_TAG=v08.06
 TARFN=ast2600-dcscm-obmc.tar.gz
 URL=https://github.com/AspeedTech-BMC/openbmc/releases/download/${OPENBMC_TAG}/${TARFN}
 

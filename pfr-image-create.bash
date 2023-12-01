@@ -1,4 +1,5 @@
 #!/bin/bash
+# This script is revised basing on openbmc/meta-aspeed-sdk/meta-ast2600-pfr/classes/intel-pfr-signing-image.bbclass
 TOPPATH=$(cd "$(dirname "$1")"; pwd)
 
 function failed()
